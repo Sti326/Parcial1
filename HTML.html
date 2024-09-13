@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcial</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/imag1.png" alt="Mi Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">INICIO</a></li>
+                <li><a href="#about">INFORMACION</a></li>
+                <li><a href="#contact">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="articles">
+            <article>
+                <img src="img/imag2.png" alt="Placeholder image">
+                <h2>Bienvenido a conocimiento</h2>
+                <p>La Educacion es el arma mas poderosa</p>
+            </article>
+            <article>
+                <img src="img/imag3.png" alt="Placeholder image">
+                <h2>Piensa en grande</h2>
+                <p>El futuro pertenece a aquellos que creen en la belleza de sus sueños.</p>
+            </article>
+        </section>
+
+        <section class="contact-form">
+            <h2>Contacto estudiante</h2>
+            <form>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Correo:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensage:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Guardar</button>
+            </form>
+        </section>
+
+        <section class="student-scores">
+            <h2>ESTUDIANTES REGISTRADOS</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>HTML</th>
+                        <th>CSS</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John</td>
+                        <td>80</td>
+                        <td>90</td>
+                        <td>170</td>
+                    </tr>
+                    <tr>
+                        <td>Jane</td>
+                        <td>85</td>
+                        <td>95</td>
+                        <td>180</td>
+                    </tr>
+                    <tr>
+                    </tr>
+                        <td>Jane</td>
+                        <td>85</td>
+                        <td>95</td>
+                        <td>180</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>Correo: strullo@estudiante.uniajc.edu.co</p>
+    </footer>
+</body>
+</html>
